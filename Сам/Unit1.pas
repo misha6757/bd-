@@ -1,0 +1,43 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, jpeg, ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    Image1: TImage;
+    procedure N2Click(Sender: TObject);
+    procedure N3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses Unit3, Unit2, Unit4;
+
+{$R *.dfm}
+
+procedure TForm1.N2Click(Sender: TObject);
+begin
+ Form3.Show;
+end;
+
+procedure TForm1.N3Click(Sender: TObject);
+begin
+Form4.Show
+end;
+
+end.
