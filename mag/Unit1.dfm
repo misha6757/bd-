@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 194
-  Top = 153
-  Width = 1029
-  Height = 623
+  Left = 188
+  Top = 111
+  Width = 985
+  Height = 537
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -23,8 +23,8 @@ object Form1: TForm1
   object DBGrid1: TDBGrid
     Left = 56
     Top = 32
-    Width = 721
-    Height = 177
+    Width = 729
+    Height = 137
     DataSource = dm.DataSource1
     Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit]
     TabOrder = 0
@@ -35,30 +35,35 @@ object Form1: TForm1
     TitleFont.Style = []
     Columns = <
       item
+        Color = clInactiveCaption
         Expanded = False
         FieldName = #1085#1072#1079#1074#1072#1085#1080#1077
         Width = 140
         Visible = True
       end
       item
+        Color = clGradientActiveCaption
         Expanded = False
         FieldName = #1072#1074#1090#1086#1088
         Width = 140
         Visible = True
       end
       item
+        Color = clFuchsia
         Expanded = False
         FieldName = #1094#1077#1085#1072
         Width = 140
         Visible = True
       end
       item
+        Color = clYellow
         Expanded = False
         FieldName = #1075#1086#1076' '#1080#1079#1076#1072#1085#1080#1103
         Width = 140
         Visible = True
       end
       item
+        Color = clGreen
         Expanded = False
         FieldName = #1103#1079#1099#1082' '#1087#1088#1086#1075#1088#1072#1084#1084#1080#1088#1086#1074#1072#1085#1080#1103
         Width = 140
@@ -128,7 +133,7 @@ object Form1: TForm1
     Top = 472
     Width = 75
     Height = 25
-    Caption = 'Button2'
+    Caption = #1087#1086#1080#1089#1082
     TabOrder = 4
     OnClick = Button2Click
   end
@@ -139,47 +144,31 @@ object Form1: TForm1
     Height = 21
     TabOrder = 5
   end
-  object Button3: TButton
-    Left = 336
-    Top = 440
-    Width = 75
-    Height = 25
-    Caption = #1076#1086#1073
-    TabOrder = 6
-  end
-  object Button4: TButton
-    Left = 520
-    Top = 448
-    Width = 75
-    Height = 25
-    Caption = #1091#1076
-    TabOrder = 7
-  end
   object Button5: TButton
-    Left = 696
-    Top = 464
+    Left = 144
+    Top = 232
     Width = 75
     Height = 25
-    Caption = 'Button5'
-    TabOrder = 8
+    Caption = #1056#1077#1076#1072#1082#1090#1080#1088#1086#1074#1072#1090#1100
+    TabOrder = 6
     OnClick = Button5Click
   end
   object BitBtn1: TBitBtn
-    Left = 888
-    Top = 248
+    Left = 272
+    Top = 232
     Width = 75
     Height = 25
-    Caption = 'BitBtn1'
-    TabOrder = 9
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100
+    TabOrder = 7
     OnClick = BitBtn1Click
   end
   object BitBtn2: TBitBtn
-    Left = 856
-    Top = 376
+    Left = 400
+    Top = 232
     Width = 75
     Height = 25
-    Caption = 'BitBtn2'
-    TabOrder = 10
+    Caption = #1059#1076#1072#1083#1080#1090#1100
+    TabOrder = 8
     OnClick = BitBtn2Click
   end
 end

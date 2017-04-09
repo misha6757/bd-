@@ -18,8 +18,6 @@ type
     Button2: TButton;
     Label2: TLabel;
     Edit1: TEdit;
-    Button3: TButton;
-    Button4: TButton;
     Button5: TButton;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
@@ -99,8 +97,8 @@ end;
 
 procedure TForm1.BitBtn2Click(Sender: TObject);
 begin
-if MessageBox(0,PChar('Удалить запись' + tabMagDSDesigne.AsString +'?'),'подуайте',
-MB_YESNO or MB_ICCONWARNING or MB_DRFBUTTON2)=id_yes
+if MessageBox(0,PChar('Удалить запись' + Dm.tabMagDSDesigner.AsString +'?'),'подуайте',
+MB_YESNO or MB_ICONWARNING or MB_DeFBUTTON2)=id_yes
 then dm.tabMag.Delete;
 end;
 

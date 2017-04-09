@@ -18,8 +18,6 @@ type
     Button2: TButton;
     Label2: TLabel;
     Edit1: TEdit;
-    Button3: TButton;
-    Button4: TButton;
     Button5: TButton;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;

@@ -139,29 +139,13 @@ object Form1: TForm1
     Height = 21
     TabOrder = 5
   end
-  object Button3: TButton
-    Left = 336
-    Top = 440
-    Width = 75
-    Height = 25
-    Caption = #1076#1086#1073
-    TabOrder = 6
-  end
-  object Button4: TButton
-    Left = 520
-    Top = 448
-    Width = 75
-    Height = 25
-    Caption = #1091#1076
-    TabOrder = 7
-  end
   object Button5: TButton
     Left = 696
     Top = 464
     Width = 75
     Height = 25
     Caption = 'Button5'
-    TabOrder = 8
+    TabOrder = 6
     OnClick = Button5Click
   end
   object BitBtn1: TBitBtn
@@ -170,7 +154,7 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'BitBtn1'
-    TabOrder = 9
+    TabOrder = 7
     OnClick = BitBtn1Click
   end
   object BitBtn2: TBitBtn
@@ -179,7 +163,7 @@ object Form1: TForm1
     Width = 75
     Height = 25
     Caption = 'BitBtn2'
-    TabOrder = 10
+    TabOrder = 8
     OnClick = BitBtn2Click
   end
 end

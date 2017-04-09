@@ -12,6 +12,13 @@ type
     tabMag: TADOTable;
     Querymag: TADOQuery;
     DataSource2: TDataSource;
+    tabMagDSDesigner: TWideStringField;
+    tabMagDSDesigner2: TWideStringField;
+    tabMagDSDesigner3: TIntegerField;
+    tabMagDSDesigner4: TIntegerField;
+    TableLang: TADOTable;
+    DataSource3: TDataSource;
+    tabMagDSDesigner5: TIntegerField;
   private
     { Private declarations }
   public

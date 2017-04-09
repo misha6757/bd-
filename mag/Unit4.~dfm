@@ -1,8 +1,8 @@
 object Form4: TForm4
-  Left = 267
-  Top = 233
-  Width = 486
-  Height = 360
+  Left = 731
+  Top = 205
+  Width = 684
+  Height = 383
   Caption = 'FormRedactor'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -42,14 +42,14 @@ object Form4: TForm4
     Caption = #1075#1086#1076
   end
   object Label5: TLabel
-    Left = 272
-    Top = 64
-    Width = 26
-    Height = 13
+    Left = 392
+    Top = 72
+    Width = 41
+    Height = 25
     Caption = #1103#1079#1099#1082
   end
   object DBEdit1: TDBEdit
-    Left = 96
+    Left = 216
     Top = 24
     Width = 121
     Height = 21
@@ -58,7 +58,7 @@ object Form4: TForm4
     TabOrder = 0
   end
   object DBEdit2: TDBEdit
-    Left = 104
+    Left = 208
     Top = 64
     Width = 121
     Height = 21
@@ -67,8 +67,8 @@ object Form4: TForm4
     TabOrder = 1
   end
   object DBEdit3: TDBEdit
-    Left = 96
-    Top = 104
+    Left = 216
+    Top = 128
     Width = 121
     Height = 21
     DataField = #1094#1077#1085#1072
@@ -76,8 +76,8 @@ object Form4: TForm4
     TabOrder = 2
   end
   object DBEdit4: TDBEdit
-    Left = 88
-    Top = 160
+    Left = 200
+    Top = 176
     Width = 121
     Height = 21
     DataField = #1075#1086#1076' '#1080#1079#1076#1072#1085#1080#1103
@@ -85,8 +85,8 @@ object Form4: TForm4
     TabOrder = 3
   end
   object DBLookupComboBox1: TDBLookupComboBox
-    Left = 328
-    Top = 64
+    Left = 480
+    Top = 72
     Width = 145
     Height = 21
     DataField = #1103#1079#1099#1082' '#1087#1088#1086#1075#1088#1072#1084#1084#1080#1088#1086#1074#1072#1085#1080#1103
@@ -97,20 +97,20 @@ object Form4: TForm4
     TabOrder = 4
   end
   object Button1: TButton
-    Left = 344
-    Top = 256
+    Left = 304
+    Top = 248
     Width = 75
     Height = 25
-    Caption = #1085#1077' '#1089#1086#1093#1088#1072#1085#1103#1090#1100
+    Caption = #1085#1077' '#1089#1086#1093
     TabOrder = 5
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 40
+    Left = 480
     Top = 248
     Width = 75
     Height = 25
-    Caption = #1089#1086#1093#1088#1072#1085#1080#1090#1100
+    Caption = #1089#1086#1093
     TabOrder = 6
     OnClick = Button2Click
   end

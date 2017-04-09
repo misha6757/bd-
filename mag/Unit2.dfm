@@ -12,13 +12,13 @@ object dm: Tdm
   object ADOConnection1: TADOConnection
     Connected = True
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\studkab45\' +
-      'Desktop\mag\mkl.mdb;Persist Security Info=False'
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=G:\mag\mkl.mdb;Pers' +
+      'ist Security Info=False'
     LoginPrompt = False
     Mode = cmShareDenyNone
     Provider = 'Microsoft.Jet.OLEDB.4.0'
     Left = 32
-    Top = 24
+    Top = 32
   end
   object tabMag: TADOTable
     Active = True
@@ -46,6 +46,7 @@ object dm: Tdm
     end
   end
   object Querymag: TADOQuery
+    Active = True
     Connection = ADOConnection1
     CursorType = ctStatic
     Parameters = <
